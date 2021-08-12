@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "hardhat compile; tsc"
+    "build": "hardhat compile; tsc",
+    "start": "hardhat run --no-compile ./scripts/aave.ts"
   },
   "keywords": [],
   "author": {
