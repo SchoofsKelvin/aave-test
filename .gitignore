@@ -1,0 +1,19 @@
+
+.env
+
+node_modules/
+dist/
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
